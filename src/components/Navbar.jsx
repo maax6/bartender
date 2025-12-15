@@ -49,7 +49,7 @@ export function Navbar() {
          className={({ isActive }) =>
             `flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 ${
                isActive
-                  ? 'bg-primary/20 text-primary glow-purple-sm'
+                  ? 'bg-primary/20 text-primary'
                   : 'text-muted-foreground hover:text-foreground hover:bg-muted/50'
             }`
          }
@@ -65,7 +65,7 @@ export function Navbar() {
             <div className="flex items-center justify-between h-16">
                {/* Logo */}
                <NavLink to="/" className="flex items-center gap-2">
-                  <span className="text-2xl font-bold text-accent text-glow-gold">
+                  <span className="text-2xl font-bold text-primary">
                      Bartender
                   </span>
                </NavLink>

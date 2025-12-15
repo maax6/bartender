@@ -33,7 +33,7 @@ export function Login() {
       <div className="min-h-screen flex items-center justify-center px-4">
          <Card className="w-full max-w-md bg-card border-border">
             <CardHeader className="text-center">
-               <CardTitle className="text-3xl text-accent text-glow-gold">
+               <CardTitle className="text-3xl text-primary">
                   Connexion
                </CardTitle>
             </CardHeader>

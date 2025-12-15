@@ -68,7 +68,7 @@ export function Search() {
    return (
       <div className="min-h-screen">
          <header className="text-center py-12 px-4">
-            <h1 className="text-4xl font-bold text-accent text-glow-gold mb-4">
+            <h1 className="text-4xl font-bold text-primary mb-4">
                Recherche de Cocktails
             </h1>
             <p className="text-muted-foreground mb-8">

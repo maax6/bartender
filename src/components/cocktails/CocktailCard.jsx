@@ -36,7 +36,7 @@ export function CocktailCard({
    return (
       <Card
          className={`group relative overflow-hidden bg-card border-border transition-all duration-300 animate-fade-in-up ${
-            isHovered ? 'glow-purple scale-[1.02]' : ''
+            isHovered ? 'scale-[1.02] shadow-lg shadow-primary/10' : ''
          }`}
          style={{ animationDelay: `${index * 50}ms` }}
          onMouseEnter={() => setIsHovered(true)}
@@ -55,7 +55,7 @@ export function CocktailCard({
 
          <CardHeader className="pb-2">
             <div className="flex items-start justify-between gap-2">
-               <h3 className="text-xl font-bold text-accent text-glow-gold truncate">
+               <h3 className="text-xl font-bold text-primary truncate">
                   {displayName}
                </h3>
                {cocktail.category && (

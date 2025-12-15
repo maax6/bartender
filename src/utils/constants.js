@@ -17,10 +17,10 @@ export const CATEGORY_OPTIONS = [
 ]
 
 export const CATEGORY_COLORS = {
-   classiques: 'bg-amber-500/20 text-amber-400 border-amber-500/30',
-   shots: 'bg-red-500/20 text-red-400 border-red-500/30',
-   signatures: 'bg-purple-500/20 text-purple-400 border-purple-500/30',
-   tiki: 'bg-green-500/20 text-green-400 border-green-500/30',
-   'sans-alcool': 'bg-blue-500/20 text-blue-400 border-blue-500/30',
-   autres: 'bg-gray-500/20 text-gray-400 border-gray-500/30',
+   classiques: 'bg-blue-500/15 text-blue-300 border-blue-500/25',
+   shots: 'bg-rose-500/15 text-rose-300 border-rose-500/25',
+   signatures: 'bg-slate-500/15 text-slate-300 border-slate-500/25',
+   tiki: 'bg-emerald-500/15 text-emerald-300 border-emerald-500/25',
+   'sans-alcool': 'bg-sky-500/15 text-sky-300 border-sky-500/25',
+   autres: 'bg-gray-500/15 text-gray-300 border-gray-500/25',
 }

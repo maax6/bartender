@@ -29,27 +29,27 @@
    --color-ring: var(--ring);
 }
 
-/* Bartender Dark Theme - Default */
+/* Bartender Dark Theme - Professional */
 :root {
    --radius: 0.75rem;
-   --background: #000000;
-   --foreground: #ffffff;
-   --card: #2d3436;
-   --card-foreground: #ffffff;
-   --popover: #1a1a2e;
-   --popover-foreground: #ffffff;
-   --primary: #bc13fe;
+   --background: #111827;
+   --foreground: #f9fafb;
+   --card: #1f2937;
+   --card-foreground: #f9fafb;
+   --popover: #1f2937;
+   --popover-foreground: #f9fafb;
+   --primary: #1C64F2;
    --primary-foreground: #ffffff;
-   --secondary: #1a1a2e;
-   --secondary-foreground: #ffffff;
-   --muted: #374151;
+   --secondary: #374151;
+   --secondary-foreground: #f9fafb;
+   --muted: #4b5563;
    --muted-foreground: #9ca3af;
-   --accent: #ffd700;
-   --accent-foreground: #000000;
+   --accent: #e5e7eb;
+   --accent-foreground: #111827;
    --destructive: #ef4444;
-   --border: #374151;
-   --input: #1f2937;
-   --ring: #bc13fe;
+   --border: #4b5563;
+   --input: #374151;
+   --ring: #1C64F2;
 }
 
 @layer base {
@@ -62,31 +62,14 @@
    }
 }
 
-/* Glow effects */
-.glow-purple {
-   box-shadow: 0 0 0.2rem #fff, 0 0 1rem #bc13fe, 0 0 2rem #bc13fe;
-}
-
-.glow-purple-sm {
-   box-shadow: 0 0 0.1rem #fff, 0 0 0.5rem #bc13fe;
-}
-
-.glow-gold {
-   box-shadow: 0 0 0.2rem #fff, 0 0 1rem #ffd700;
-}
-
-.hover-glow:hover {
-   box-shadow: 0 0 0.2rem #fff, 0 0 1rem #bc13fe, 0 0 2rem #bc13fe;
-   transition: box-shadow 0.3s ease;
-}
-
-/* Text glow */
-.text-glow-gold {
-   text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700;
-}
-
+/* Legacy glow classes - kept for compatibility but neutralized */
+.glow-purple,
+.glow-purple-sm,
+.glow-gold,
+.hover-glow:hover,
+.text-glow-gold,
 .text-glow-purple {
-   text-shadow: 0 0 10px #bc13fe, 0 0 20px #bc13fe;
+   /* Effects removed for professional look */
 }
 
 /* Custom scrollbar */

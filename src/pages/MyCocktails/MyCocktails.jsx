@@ -71,7 +71,7 @@ export function MyCocktails() {
       <div className="min-h-screen">
          <header className="flex flex-col sm:flex-row items-center justify-between gap-4 py-8 px-4">
             <div>
-               <h1 className="text-4xl font-bold text-accent text-glow-gold">
+               <h1 className="text-4xl font-bold text-primary">
                   Mes Cocktails
                </h1>
                <p className="text-muted-foreground mt-2">

@@ -64,13 +64,15 @@ export function CocktailForm({
       const validIngredients = ingredients.filter(
          (ing) => ing.name.trim() !== ''
       )
-      onSubmit({ ...formData, ingredients: validIngredients })
+
+      const normalizedName = formData.name.charAt(0).toUpperCase() + formData.name.slice(1).toLowerCase()
+      onSubmit({ ...formData, name: normalizedName, ingredients: validIngredients })
    }
 
    return (
       <Card className="bg-card border-border">
          <CardHeader>
-            <CardTitle className="text-accent text-glow-gold">
+            <CardTitle className="text-primary">
                {initialData ? 'Modifier le cocktail' : 'Nouveau cocktail'}
             </CardTitle>
          </CardHeader>

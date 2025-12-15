@@ -50,7 +50,7 @@ export function EditCocktail() {
    return (
       <div className="min-h-screen py-8 px-4">
          <div className="max-w-2xl mx-auto">
-            <h1 className="text-4xl font-bold text-accent text-glow-gold mb-8 text-center">
+            <h1 className="text-4xl font-bold text-primary mb-8 text-center">
                Modifier le Cocktail
             </h1>
             <CocktailForm
